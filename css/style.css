@@ -1,5 +1,15 @@
 body{
 	background-image:url('https://lh6.ggpht.com/37FnN1YYFNu16wKTcjJ7KB08KpHA2VfK8aoZOIMXMN3VGXs7NX2S43N_G0uVwFtxKg')
-
+      
+  
 }
-
+@font-face {
+    font-family:a;
+    src: url("../font/a.ttc");
+}
+h1{
+	font-family:a;
+}
+button{
+	font-family:a;
+}
