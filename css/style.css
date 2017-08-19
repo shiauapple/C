@@ -13,3 +13,15 @@ h1{
 button{
 	font-family:a;
 }
+.btn{
+	width:110px;
+	height:110px;
+	transform:translateY(50%);
+	margin:2.5px
+	color:#DDFF77
+}
+input{
+	width:280px;
+	height:40px;
+}
+
