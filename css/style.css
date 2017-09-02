@@ -1,7 +1,7 @@
 body{
 
-	background-image:url('../images/1.png')
-
+	background-image:url('../images/1.gif');
+	
       
   
 }
@@ -10,20 +10,28 @@ body{
     src: url("../font/a.ttc");
 }
 h1{
+	font-size: 46px;
 	font-family:a;
 }
+
 button{
 	font-family:a;
 }
 .btn{
-	width:110px;
-	height:110px;
+	width:150px;
+	height:150px;
 	transform:translateY(50%);
 	margin:2.5px
 	color:#DDFF77
 }
-input{
-	width:280px;
+
+input {
+	width:360px;
 	height:40px;
 }
+.input1{
+	width:25px;
+	height:25px;
+}
+
 
