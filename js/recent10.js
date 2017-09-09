@@ -12,7 +12,7 @@ setTimeout(function(){
 		{},
 		{
 			$orderBy: {"date":-1},
-			$limit: 15
+			$limit: 10
 		}
 	);
 	for (var i = 0; i < accountings.length; i++) {

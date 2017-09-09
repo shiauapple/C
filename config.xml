@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.example"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>御宅の記帳</name>
+
+  <description>
+      御宅の記帳.
+  </description>
+
+  <author href="https://a.b.c" email="w@a.c">
+      萬能蕭培
+  </author>
+
+  <icon src="icon.png" />
+
+</widget>
