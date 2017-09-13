@@ -66,7 +66,13 @@ h3{
 }
 
 
+.btn5{
+transform:translateY(1000%);
+}
 
+.btn6{
+transform:translateY(560%);
+}
 
 .l oader {
 
@@ -105,6 +111,37 @@ h5{
 	color: 	#EFFFD7;
 
 }
+h6{
+	font-size: 46px;
+	font-family:a;
+	transform:translateY(1000%);
+
+}
+p{
+  font-size: 46px;
+  font-family:a;
+  transform:translateY(450%);
+  color:  #F3FF47;
+
+}
+
+.btn3{
+	font-size: 26px;
+	width:173.062px;
+	height:80px;
+	margin:2.5px;
+	transform:translateY(650%);
+	color:#DDFF77;
+}
+.btn4{
+	font-size: 26px;
+	width:200px;
+	height:80px;
+	margin:2.5px;
+	
+	color:#DDFF77;
+	}
+
 
 .sk-cube-grid {
   width: 100px;
@@ -230,3 +267,4 @@ h5{
             transform: scale3D(0, 0, 1);
   } 
 }
+

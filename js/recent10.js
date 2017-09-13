@@ -1,7 +1,8 @@
 var fdb = new ForerunnerDB();
-var db = fdb.db("myDB");
+var db =fdb.db("myDB");
 var accountingCollection = db.collection('new');
 accountingCollection.load();
+
 
 function createAccountingHTMLString(date, category, item, cost){
 	return "<tr><td>"+date+"</td><td>"+category+"</td><td>"+item+"</td><td>"+cost+"</td></tr>"
@@ -16,7 +17,10 @@ setTimeout(function(){
 		}
 	);
 	for (var i = 0; i < accountings.length; i++) {
-		$("#accountingTable").append(createAccountingHTMLString(accountings[i].date, accountings[i].category, accountings[i].item, accountings[i].cost))
-	}
+			$("#accountingTable").append(createAccountingHTMLString(accountings[i].date, accountings[i].category, accountings[i].item, accountings[i].cost))
+		}
+
 
 }, 500);
+
+

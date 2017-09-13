@@ -3,17 +3,17 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.phonegap.example"
     versionCode = "10"
-    version     = "1.0.0" >
+    version     = "1.0.7V" >
 
 <!-- versionCode is optional and Android only -->
 
   <name>御宅の記帳</name>
 
   <description>
-      御宅の記帳.
+      記帳
   </description>
 
-  <author href="https://a.b.c" email="w@a.c">
+  <author href="https://facebook.com/shiauapple" email="shiauapple@gmail.com">
       萬能蕭培
   </author>
 

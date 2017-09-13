@@ -10,7 +10,8 @@ $('#submit').click(function(){
 	var item = $("#item").val();
 	var cost = $("#cost").val();
 
-
+	
+	
 	newCollection.insert({
 		date:date,
 		category:category,
@@ -25,3 +26,9 @@ $('#submit').click(function(){
 	$("#item").val("");
 	$("#cost").val("");
 	})
+
+
+
+
+
+
