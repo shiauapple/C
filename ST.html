@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title></title>
 	</head>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-<body>
-<center><button  type="button" class="btn3 btn-success btn-lg" class="btn1" onClick='location.href="https://shiauapple.github.io/menu.html"' >其他網頁</button>
-<button  type="button" class="btn3 btn-success btn-lg" class="btn1" onClick='location.href="https://shiauapple.github.io/C/update.html"' >更新</button></center>
-<center><h6>版本號:1.0.7V</h6></center>
-</body>
+	<body>
+		<center><button  type="button" class="btn3 btn-success btn-lg" class="btn1" onClick='location.href="https://shiauapple.github.io/menu.html"' >其他網頁</button>
+		<button  type="button" class="btn3 btn-success btn-lg" class="btn1" onClick='javascript:location.href="https://shiauapple.github.io/C/update.html"'
+		findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+		@Override
+		public void onClick(View v) {
+		String uri = "OpenAnotherApp:/data/app/com.android.chrome-2/base.apk"; // 目標
+		Intent intent = new Intent();
+		intent.setAction(Intent.ACTION_MAIN); // 改 Intent.ACTION_VIEW 可以開啟別的APP的某個Activity
+		intent.addCategory(Intent.CATEGORY_BROWSABLE); // 預設不要改
+		intent.addCategory(Intent.CATEGORY_DEFAULT); // 預設不要改
+		intent.setData(Uri.parse(uri));
+		try {
+		startActivity(intent);
+		} catch (ActivityNotFoundException e) {
+		}
+		}
+		});
+		>更新</button></center>
+		<center><h6>版本號:1.0.7V</h6></center>
+	</body>
 </html>
