@@ -9,8 +9,6 @@ $('#submit').click(function(){
 	var category = $("#category").val();
 	var item = $("#item").val();
 	var cost = $("#cost").val();
-
-	
 	
 	newCollection.insert({
 		date:date,
@@ -18,6 +16,7 @@ $('#submit').click(function(){
 		item:item,
 		cost:cost
 		});
+
 	newCollection.save();
 	alert("儲存成功")
 
@@ -32,3 +31,4 @@ $('#submit').click(function(){
 
 
 
+// $("#accountingTable").find("tr").remove();
