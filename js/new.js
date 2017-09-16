@@ -18,7 +18,7 @@ $('#submit').click(function(){
 		});
 
 	newCollection.save();
-	alert("儲存成功1")
+	alert("儲存成功")
 
 	$("#date").val("");
 	$("#category").val("");
