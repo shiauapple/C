@@ -4,8 +4,6 @@ var newCollection =db.collection('new')
 
 newCollection.load();
 
-
-
 $('#submit').click(function(){
 	var date = $("#date").val();
 	var category = $("#category").val();
