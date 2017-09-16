@@ -24,7 +24,9 @@ $('#submit').click(function(){
 	$("#category").val("");
 	$("#item").val("");
 	$("#cost").val("");
-	})
+
+	window.location.href="Home.html";
+})
 
 
 
