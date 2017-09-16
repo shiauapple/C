@@ -18,14 +18,14 @@ $('#submit').click(function(){
 		});
 
 	newCollection.save();
-	alert("儲存成功")
+	alert("儲存成功1")
 
 	$("#date").val("");
 	$("#category").val("");
 	$("#item").val("");
 	$("#cost").val("");
 
-	window.location.href="Home.html";
+	setTimeout(function(){window.location.href="Home.html";}, 500);
 })
 
 
